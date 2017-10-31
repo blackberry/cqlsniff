@@ -25,5 +25,5 @@ src/main.o: src/main.cc
 	g++ $(CFLAGS) -c $? -o $@
 
 clean:
-	rm -f src/*.o cqlsniff
+	rm -f src/*.o external/*/*.o cqlsniff
 
