@@ -30,7 +30,7 @@
 #include "stream.h"
 
 const char *argp_program_version = "cqlsniff 1.2";
-const char *argp_program_bug_address = "<jtackaberry@blackberry.com>";
+const char *argp_program_bug_address = "https://github.com/blackberry/cqlsniff/issues";
 
 struct arguments {
     char interface[IFNAMSIZ];
